@@ -8,6 +8,13 @@
             <TabItem Header="Saved"></TabItem>
         </TabControl>
         <TabControl>
+            <WrapPanel Orientation="Horizontal">
+                <CheckBox Margin="0,0,10,0" Content="Global"></CheckBox>
+                <CheckBox Margin="0,0,10,0" Content="Ignore Case"></CheckBox>
+                <CheckBox Margin="0,0,10,0" Content="Extended"></CheckBox>
+                <CheckBox Margin="0,0,10,0" Content="Dotall"></CheckBox>
+                <CheckBox Margin="0,0,10,0" Content="Multiline"></CheckBox>
+            </WrapPanel>
             <TabItem Header="Match"></TabItem>
             <TabItem Header="Replace"></TabItem>
         </TabControl>
