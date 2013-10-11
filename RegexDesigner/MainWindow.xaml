@@ -19,6 +19,7 @@
                             <CheckBox Margin="0,0,10,0" Content="Dotall"></CheckBox>
                             <CheckBox Margin="0,0,10,0" Content="Multiline"></CheckBox>
                         </WrapPanel>
+                        <TextBox Margin="2,2,2,2" AcceptsReturn="True" Text="Input text goes here"></TextBox>
                     </StackPanel>
                 </GroupBox>
             </TabItem>
@@ -33,6 +34,9 @@
                             <CheckBox Margin="0,0,10,0" Content="Dotall"></CheckBox>
                             <CheckBox Margin="0,0,10,0" Content="Multiline"></CheckBox>
                         </WrapPanel>
+                        <TextBox Margin="2,2,2,15" Text="Replacement text goes here"></TextBox>
+                        <TextBox Margin="2,2,2,5" AcceptsReturn="True" Text="Input text goes here"></TextBox>
+                        <TextBox Margin="2,2,2,2" AcceptsReturn="True" Text="Output text goes here"></TextBox>
                     </StackPanel>
                 </GroupBox>
             </TabItem>
