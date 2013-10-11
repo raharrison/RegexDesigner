@@ -3,34 +3,38 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <DockPanel LastChildFill="True">
-        <TabControl DockPanel.Dock="Right" Padding="5,0,5,0">
+        <TabControl DockPanel.Dock="Right">
             <TabItem Header="Samples"></TabItem>
             <TabItem Header="Saved"></TabItem>
         </TabControl>
         <TabControl>
             <TabItem Header="Match">
-                <StackPanel>
-                    <TextBlock Text="Regular expression goes here"></TextBlock>
-                    <WrapPanel Margin="5,5,5,5" Orientation="Horizontal">
-                        <CheckBox Margin="0,0,10,0" Content="Global"></CheckBox>
-                        <CheckBox Margin="0,0,10,0" Content="Ignore Case"></CheckBox>
-                        <CheckBox Margin="0,0,10,0" Content="Extended"></CheckBox>
-                        <CheckBox Margin="0,0,10,0" Content="Dotall"></CheckBox>
-                        <CheckBox Margin="0,0,10,0" Content="Multiline"></CheckBox>
-                    </WrapPanel>
-                </StackPanel>
+                <GroupBox>
+                    <StackPanel>
+                        <TextBox Margin="2,2,2,2" Text="Regular expression goes here"></TextBox>
+                        <WrapPanel Margin="5,5,5,5" Orientation="Horizontal">
+                            <CheckBox Margin="0,0,10,0" Content="Global"></CheckBox>
+                            <CheckBox Margin="0,0,10,0" Content="Ignore Case"></CheckBox>
+                            <CheckBox Margin="0,0,10,0" Content="Extended"></CheckBox>
+                            <CheckBox Margin="0,0,10,0" Content="Dotall"></CheckBox>
+                            <CheckBox Margin="0,0,10,0" Content="Multiline"></CheckBox>
+                        </WrapPanel>
+                    </StackPanel>
+                </GroupBox>
             </TabItem>
             <TabItem Header="Replace">
-                <StackPanel>
-                    <TextBlock Text="Regular expression goes here"></TextBlock>
-                    <WrapPanel Margin="5,5,5,5" Orientation="Horizontal">
-                        <CheckBox Margin="0,0,10,0" Content="Global"></CheckBox>
-                        <CheckBox Margin="0,0,10,0" Content="Ignore Case"></CheckBox>
-                        <CheckBox Margin="0,0,10,0" Content="Extended"></CheckBox>
-                        <CheckBox Margin="0,0,10,0" Content="Dotall"></CheckBox>
-                        <CheckBox Margin="0,0,10,0" Content="Multiline"></CheckBox>
-                    </WrapPanel>
-                </StackPanel>
+                <GroupBox>
+                    <StackPanel>
+                        <TextBox Margin="2,2,2,2" Text="Regular expression goes here"></TextBox>
+                        <WrapPanel Margin="5,5,5,5" Orientation="Horizontal">
+                            <CheckBox Margin="0,0,10,0" Content="Global"></CheckBox>
+                            <CheckBox Margin="0,0,10,0" Content="Ignore Case"></CheckBox>
+                            <CheckBox Margin="0,0,10,0" Content="Extended"></CheckBox>
+                            <CheckBox Margin="0,0,10,0" Content="Dotall"></CheckBox>
+                            <CheckBox Margin="0,0,10,0" Content="Multiline"></CheckBox>
+                        </WrapPanel>
+                    </StackPanel>
+                </GroupBox>
             </TabItem>
         </TabControl>
     </DockPanel>

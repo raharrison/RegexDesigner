@@ -1,1 +1,13 @@
 c:\users\ryan\documents\visual studio 2012\Projects\RegexDesigner\RegexDesigner\bin\Debug\RegexDesigner.exe.config
+c:\users\ryan\documents\visual studio 2012\Projects\RegexDesigner\RegexDesigner\bin\Debug\RegexDesigner.exe
+c:\users\ryan\documents\visual studio 2012\Projects\RegexDesigner\RegexDesigner\bin\Debug\RegexDesigner.pdb
+c:\users\ryan\documents\visual studio 2012\Projects\RegexDesigner\RegexDesigner\obj\Debug\RegexDesigner.csprojResolveAssemblyReference.cache
+c:\users\ryan\documents\visual studio 2012\Projects\RegexDesigner\RegexDesigner\obj\Debug\MainWindow.baml
+c:\users\ryan\documents\visual studio 2012\Projects\RegexDesigner\RegexDesigner\obj\Debug\MainWindow.g.cs
+c:\users\ryan\documents\visual studio 2012\Projects\RegexDesigner\RegexDesigner\obj\Debug\App.g.cs
+c:\users\ryan\documents\visual studio 2012\Projects\RegexDesigner\RegexDesigner\obj\Debug\RegexDesigner_MarkupCompile.cache
+c:\users\ryan\documents\visual studio 2012\Projects\RegexDesigner\RegexDesigner\obj\Debug\RegexDesigner.g.resources
+c:\users\ryan\documents\visual studio 2012\Projects\RegexDesigner\RegexDesigner\obj\Debug\RegexDesigner.Properties.Resources.resources
+c:\users\ryan\documents\visual studio 2012\Projects\RegexDesigner\RegexDesigner\obj\Debug\RegexDesigner.csproj.GenerateResource.Cache
+c:\users\ryan\documents\visual studio 2012\Projects\RegexDesigner\RegexDesigner\obj\Debug\RegexDesigner.exe
+c:\users\ryan\documents\visual studio 2012\Projects\RegexDesigner\RegexDesigner\obj\Debug\RegexDesigner.pdb
