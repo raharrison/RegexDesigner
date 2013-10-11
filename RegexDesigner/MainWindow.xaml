@@ -8,15 +8,30 @@
             <TabItem Header="Saved"></TabItem>
         </TabControl>
         <TabControl>
-            <WrapPanel Orientation="Horizontal">
-                <CheckBox Margin="0,0,10,0" Content="Global"></CheckBox>
-                <CheckBox Margin="0,0,10,0" Content="Ignore Case"></CheckBox>
-                <CheckBox Margin="0,0,10,0" Content="Extended"></CheckBox>
-                <CheckBox Margin="0,0,10,0" Content="Dotall"></CheckBox>
-                <CheckBox Margin="0,0,10,0" Content="Multiline"></CheckBox>
-            </WrapPanel>
-            <TabItem Header="Match"></TabItem>
-            <TabItem Header="Replace"></TabItem>
+            <TabItem Header="Match">
+                <StackPanel>
+                    <TextBlock Text="Regular expression goes here"></TextBlock>
+                    <WrapPanel Margin="5,5,5,5" Orientation="Horizontal">
+                        <CheckBox Margin="0,0,10,0" Content="Global"></CheckBox>
+                        <CheckBox Margin="0,0,10,0" Content="Ignore Case"></CheckBox>
+                        <CheckBox Margin="0,0,10,0" Content="Extended"></CheckBox>
+                        <CheckBox Margin="0,0,10,0" Content="Dotall"></CheckBox>
+                        <CheckBox Margin="0,0,10,0" Content="Multiline"></CheckBox>
+                    </WrapPanel>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Replace">
+                <StackPanel>
+                    <TextBlock Text="Regular expression goes here"></TextBlock>
+                    <WrapPanel Margin="5,5,5,5" Orientation="Horizontal">
+                        <CheckBox Margin="0,0,10,0" Content="Global"></CheckBox>
+                        <CheckBox Margin="0,0,10,0" Content="Ignore Case"></CheckBox>
+                        <CheckBox Margin="0,0,10,0" Content="Extended"></CheckBox>
+                        <CheckBox Margin="0,0,10,0" Content="Dotall"></CheckBox>
+                        <CheckBox Margin="0,0,10,0" Content="Multiline"></CheckBox>
+                    </WrapPanel>
+                </StackPanel>
+            </TabItem>
         </TabControl>
     </DockPanel>
 </Window>
