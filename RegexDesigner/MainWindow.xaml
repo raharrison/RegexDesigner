@@ -49,7 +49,7 @@
                         </StackPanel>
                     </Border>
                     <StackPanel>
-                        <TextBox MinLines="14" VerticalAlignment="Stretch" TextWrapping="Wrap" Margin="2,5,2,5" AcceptsReturn="True" Text="{Binding Path=InputText, Mode=TwoWay}"></TextBox>
+                        <TextBox MinLines="14" VerticalAlignment="Stretch" TextWrapping="Wrap" Margin="2,5,2,5" AcceptsReturn="True" Text="{Binding Path=InputText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
                         <TextBox MinLines="6" Margin="2,5,2,5" IsReadOnly="True" IsEnabled="False" AcceptsReturn="True" Text="Information about the match goes here"></TextBox>
                     </StackPanel>
                 </StackPanel>
