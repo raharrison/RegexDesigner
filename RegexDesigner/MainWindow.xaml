@@ -4,7 +4,18 @@
         Title="MainWindow" Height="490" Width="630">
     <DockPanel LastChildFill="True">
         <TabControl DockPanel.Dock="Right">
-            <TabItem Header="Samples"></TabItem>
+            <TabItem Header="Samples">
+                <DockPanel LastChildFill="True">
+                    <TextBox DockPanel.Dock="Bottom" MinLines="4" IsEnabled="False" IsReadOnly="True" Text="Information about the currently!&#13; selected item"></TextBox>
+                    <ListBox DockPanel.Dock="Top">
+                        <ListViewItem>Item one</ListViewItem>
+                        <ListViewItem>Item two</ListViewItem>
+                        <ListViewItem>Item three</ListViewItem>
+                        <ListViewItem>Item four</ListViewItem>
+                        <ListViewItem>Item five</ListViewItem>
+                    </ListBox>
+                </DockPanel>
+            </TabItem>
             <TabItem Header="Saved"></TabItem>
         </TabControl>
         <TabControl>
