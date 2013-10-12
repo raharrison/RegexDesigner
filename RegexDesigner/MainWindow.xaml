@@ -10,44 +10,50 @@
         <TabControl>
             <TabItem Header="Match">
                 <StackPanel>
-                    <StackPanel Margin="2,2,2,2">
-                        <TextBox Margin="2,5,2,5" Text="Regular expression goes here"></TextBox>
-                        <WrapPanel Margin="5,5,5,5" Orientation="Horizontal">
-                            <CheckBox Margin="0,0,10,0" Content="Global"></CheckBox>
-                            <CheckBox Margin="0,0,10,0" Content="Ignore Case"></CheckBox>
-                            <CheckBox Margin="0,0,10,0" Content="Extended"></CheckBox>
-                            <CheckBox Margin="0,0,10,0" Content="Dotall"></CheckBox>
-                            <CheckBox Margin="0,0,10,0" Content="Multiline"></CheckBox>
-                        </WrapPanel>
-                    </StackPanel>
-                    <StackPanel Margin="2,2,2,2">
-                        <TextBox MinLines="12" Margin="2,5,2,5" AcceptsReturn="True" Text="Input text goes here"></TextBox>
-                    </StackPanel>
-                    <StackPanel Margin="2,2,2,2">
-                        <TextBox MinLines="5" Margin="2,5,2,5" AcceptsReturn="True" Text="Information about the match goes here"></TextBox>
+                    <Border BorderBrush="DarkGray" BorderThickness="1">
+                        <StackPanel Margin="2,2,2,2">
+                            <TextBox Margin="2,5,2,5" Text="Regular expression goes here"></TextBox>
+                            <WrapPanel Margin="5,5,5,5" Orientation="Horizontal">
+                                <CheckBox Margin="0,0,10,0" Content="Global"></CheckBox>
+                                <CheckBox Margin="0,0,10,0" Content="Ignore Case"></CheckBox>
+                                <CheckBox Margin="0,0,10,0" Content="Extended"></CheckBox>
+                                <CheckBox Margin="0,0,10,0" Content="Dotall"></CheckBox>
+                                <CheckBox Margin="0,0,10,0" Content="Multiline"></CheckBox>
+                            </WrapPanel>
+                        </StackPanel>
+                    </Border>
+                    <StackPanel>
+                        <TextBox MinLines="14" VerticalAlignment="Stretch" TextWrapping="Wrap" Margin="2,5,2,5" AcceptsReturn="True" Text="Input text goes here"></TextBox>
+                        <TextBox MinLines="6" Margin="2,5,2,5" IsReadOnly="True" IsEnabled="False" AcceptsReturn="True" Text="Information about the match goes here"></TextBox>
                     </StackPanel>
                 </StackPanel>
             </TabItem>
             <TabItem Header="Replace">
                 <StackPanel>
-                    <StackPanel Margin="2,2,2,2">
-                        <TextBox Margin="2,5,2,5" Text="Regular expression goes here"></TextBox>
-                        <WrapPanel Margin="5,5,5,5" Orientation="Horizontal">
-                            <CheckBox Margin="0,0,10,0" Content="Global"></CheckBox>
-                            <CheckBox Margin="0,0,10,0" Content="Ignore Case"></CheckBox>
-                            <CheckBox Margin="0,0,10,0" Content="Extended"></CheckBox>
-                            <CheckBox Margin="0,0,10,0" Content="Dotall"></CheckBox>
-                            <CheckBox Margin="0,0,10,0" Content="Multiline"></CheckBox>
-                        </WrapPanel>
-                        <TextBox Margin="2,5,2,15" Text="Replacement text goes here"></TextBox>
-                    </StackPanel>
-                    <StackPanel Margin="2,2,2,2">
-                        <TextBox MinLines="5" Margin="2,5,2,5" AcceptsReturn="True" Text="Input text goes here"></TextBox>
-                        <TextBox MinLines="5" Margin="2,5,2,5" AcceptsReturn="True" Text="Output text goes here"></TextBox>
-                    </StackPanel>
-                    <StackPanel Margin="2,2,2,2">
-                        <TextBox MinLines="3" Margin="2,5,2,5" AcceptsReturn="True" Text="Information about the match goes here"></TextBox>
-                    </StackPanel>
+                    <Border Margin="0,5,0,0" BorderBrush="DarkGray" BorderThickness="1">
+                        <StackPanel Margin="2,2,2,2">
+                            <TextBox Margin="2,5,2,5" Text="Regular expression goes here"></TextBox>
+                            <WrapPanel Margin="5,5,5,5" Orientation="Horizontal">
+                                <CheckBox Margin="0,0,10,0" Content="Global"></CheckBox>
+                                <CheckBox Margin="0,0,10,0" Content="Ignore Case"></CheckBox>
+                                <CheckBox Margin="0,0,10,0" Content="Extended"></CheckBox>
+                                <CheckBox Margin="0,0,10,0" Content="Dotall"></CheckBox>
+                                <CheckBox Margin="0,0,10,0" Content="Multiline"></CheckBox>
+                            </WrapPanel>
+                            <TextBox Margin="2,5,2,15" Text="Replacement text goes here"></TextBox>
+                        </StackPanel>
+                    </Border>
+                    <Border Margin="0,5,0,0" BorderBrush="DarkGray" BorderThickness="1">
+                        <StackPanel Margin="2,2,2,2">
+                            <TextBox MinLines="5" Margin="2,5,2,5" AcceptsReturn="True" Text="Input text goes here"></TextBox>
+                            <TextBox MinLines="5" Margin="2,5,2,5" AcceptsReturn="True" Text="Output text goes here"></TextBox>
+                        </StackPanel>
+                    </Border>
+                    <Border Margin="0,5,0,0" BorderBrush="DarkGray" BorderThickness="1">
+                        <StackPanel Margin="2,2,2,2">
+                            <TextBox MinLines="3" Margin="2,5,2,5" AcceptsReturn="True" Text="Information about the match goes here"></TextBox>
+                        </StackPanel>
+                    </Border>
                 </StackPanel>
             </TabItem>
         </TabControl>
