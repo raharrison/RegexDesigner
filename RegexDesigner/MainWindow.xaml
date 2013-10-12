@@ -1,7 +1,7 @@
 ﻿<Window x:Class="RegexDesigner.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="480" Width="620">
+        Title="MainWindow" Height="490" Width="630">
     <DockPanel LastChildFill="True">
         <TabControl DockPanel.Dock="Right">
             <TabItem Header="Samples"></TabItem>
@@ -40,20 +40,12 @@
                                 <CheckBox Margin="0,0,10,0" Content="Dotall"></CheckBox>
                                 <CheckBox Margin="0,0,10,0" Content="Multiline"></CheckBox>
                             </WrapPanel>
-                            <TextBox Margin="2,5,2,15" Text="Replacement text goes here"></TextBox>
+                            <TextBox Margin="2,5,2,5" Text="Replacement text goes here"></TextBox>
                         </StackPanel>
                     </Border>
-                    <Border Margin="0,5,0,0" BorderBrush="DarkGray" BorderThickness="1">
-                        <StackPanel Margin="2,2,2,2">
-                            <TextBox MinLines="5" Margin="2,5,2,5" AcceptsReturn="True" Text="Input text goes here"></TextBox>
-                            <TextBox MinLines="5" Margin="2,5,2,5" AcceptsReturn="True" Text="Output text goes here"></TextBox>
-                        </StackPanel>
-                    </Border>
-                    <Border Margin="0,5,0,0" BorderBrush="DarkGray" BorderThickness="1">
-                        <StackPanel Margin="2,2,2,2">
-                            <TextBox MinLines="3" Margin="2,5,2,5" AcceptsReturn="True" Text="Information about the match goes here"></TextBox>
-                        </StackPanel>
-                    </Border>
+                    <TextBox MinLines="7" Margin="2,5,2,5" AcceptsReturn="True" Text="Input text goes here"></TextBox>
+                    <TextBox MinLines="5" Margin="2,5,2,5" AcceptsReturn="True" Text="Output text goes here"></TextBox>
+                    <TextBox MinLines="5" Margin="2,5,2,5" IsReadOnly="True" IsEnabled="False" AcceptsReturn="True" Text="Information about the match goes here"></TextBox>
                 </StackPanel>
             </TabItem>
         </TabControl>
