@@ -69,7 +69,7 @@
                             <TextBox Margin="2,5,2,5" Text="Replacement text goes here"></TextBox>
                         </StackPanel>
                     </Border>
-                    <TextBox MinLines="7" Margin="2,5,2,5" AcceptsReturn="True" Text="Input text goes here"></TextBox>
+                    <TextBox MinLines="7" Margin="2,5,2,5" AcceptsReturn="True" Text= "{Binding Path=InputText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
                     <TextBox MinLines="5" Margin="2,5,2,5" AcceptsReturn="True" Text="Output text goes here"></TextBox>
                     <TextBox MinLines="5" Margin="2,5,2,5" IsReadOnly="True" IsEnabled="False" AcceptsReturn="True" Text="Information about the match goes here"></TextBox>
                 </StackPanel>
